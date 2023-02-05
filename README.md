@@ -25,7 +25,9 @@ There aren't any critical unsolved problems.
 This is a big improvement on the first version but there is plenty of work to be done.      
 
 ## Miscellaneous
-If you want access to the files you can fork and clone this repository to your machine.
+If you want access to the files you can fork and clone this repository to your machine.  
+
+To play the game, visit https://johnvresilovic.github.io/twiggle/
 
 Contact info: 
 https://linkedin.com/in/john-vresilovic
