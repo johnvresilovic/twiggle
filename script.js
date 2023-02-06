@@ -1,7 +1,7 @@
 //assign values to the key variables
 let letters = ['a', 'e', 'h', 'i', 'd', 'n', 'w']
 
-let words = ['headwind', 'wind', 'winded', 'whined', 'whine', 'wine', 'wined', 'indie', 'whinnied', 'widened', 'widen', 'wide', 'weenie', 'wienie', 'hide', 'hidden', 'aided', 'aide', 'died', 'denied', 'eddied', 'indeed', 'hind','dine','dined','hied']
+let words = ['headwind', 'wind', 'winded', 'whined', 'whine', 'wine', 'wined', 'indie', 'whinnied', 'widened', 'widen', 'wide', 'weenie', 'wienie', 'hide', 'hidden', 'aided', 'aide', 'died', 'denied', 'eddied', 'indeed', 'hind','dine','dined','hied','nine']
 
 let wordsInPlay = words.sort()
 let winTotal = Math.floor(words.length * .8)
