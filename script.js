@@ -1,7 +1,7 @@
 //assign values to the key variables
-let letters = ['a', 'e', 'h', 'i', 'd', 'n', 'w']
+let letters = ['c', 'e', 'm', 'p', 'o', 'n', 't']
 
-let words = ['headwind', 'wind', 'winded', 'whined', 'whine', 'wine', 'wined', 'indie', 'whinnied', 'widened', 'widen', 'wide', 'weenie', 'wienie', 'hide', 'hidden', 'aided', 'aide', 'died', 'denied', 'eddied', 'indeed', 'hind','dine','dined','hied','nine']
+let words = ['competence', 'competent', 'component', 'contempt', 'noncompete', 'comp', 'compete', 'compote', 'concept', 'coop', 'coopt', 'cope', 'epee', 'mope', 'moppet', 'nope', 'open', 'opponent', 'peen', 'peep', 'pence', 'penne', 'pent', 'peon', 'poem', 'poet', 'pomp', 'pompom', 'pone', 'pontoon', 'poop', 'pope', 'poppet', 'potent', 'teepee', 'tepee', 'temp', 'tempo', 'tempt']
 
 let wordsInPlay = words.sort()
 let winTotal = Math.floor(words.length * .8)
@@ -87,7 +87,6 @@ function gamePlay() {
         foundWords.push(guess)
         sortedWords = foundWords.sort()
         displayFoundWords(sortedWords)
-        // wordList.innerText = `${sortedWords}`
         wordAccepted = true
         tempArray.push(guess)
         goalProgress.innerHTML = "<p>"+`Number of words found = ${wordCounter}`+"</p><p>"+`Number needed to win = ${winTotal}`+"</p><p>"+`Number of words in answer set = ${totalWords}`+"</p>"
