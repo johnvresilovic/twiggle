@@ -27,7 +27,7 @@ This is a big improvement on the first version but there is plenty of work to be
 ## Miscellaneous
 If you want access to the files you can fork and clone this repository to your machine.  
 
-To play the game, visit https://johnvresilovic.github.io/twiggle/
+To play the game, visit https://johnvresilovic.github.io/twiggle/.  Right now the game looks best on bigger (desktop/laptop) screens.  Better mobile responsivity is coming soon!
 
 Contact info: 
 https://linkedin.com/in/john-vresilovic

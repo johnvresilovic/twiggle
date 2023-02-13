@@ -9,14 +9,21 @@
 #column1, #column2 {
     background-color: lightsteelblue;
     height: 250vh;
-    width: 15%;
     font-weight: bold;
+}
+
+#column1 {
+    width: 15%;
+}
+
+#column2 {
+    width: 21%;
 }
 
 #center-column {
     background-color: white;
     height: 100vh;
-    width: 70%;
+    width: 64%;
 }
 
 .intro { 

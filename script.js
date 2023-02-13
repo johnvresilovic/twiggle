@@ -3,14 +3,23 @@ let letters = ['c', 'e', 'm', 'p', 'o', 'n', 't']
 
 let words = ['competence', 'competent', 'component', 'contempt', 'noncompete', 'comp', 'compete', 'compote', 'concept', 'coop', 'coopt', 'cope', 'epee', 'mope', 'moppet', 'nope', 'open', 'opponent', 'peen', 'peep', 'pence', 'penne', 'pent', 'peon', 'poem', 'poet', 'pomp', 'pompom', 'pone', 'pontoon', 'poop', 'pope', 'poppet', 'potent', 'teepee', 'tepee', 'temp', 'tempo', 'tempt']
 
+let pangrams = ['competence', 'competent', 'component', 'contempt', 'noncompete']
+
 let wordsInPlay = words.sort()
-let winTotal = Math.floor(words.length * .8)
-let totalWords = words.length
 let foundWords = []
-let wordCounter = 0
+let runningTotal = 0
 let tempArray = []
 
+//determine minimum winning score
+let totalWords = words.length
+let totalPangrams = pangrams.length
+let totalScoreRegularWords = totalWords - totalPangrams
+let totalScorePangrams = totalPangrams * 5
+let maximumScore = totalScoreRegularWords + totalScorePangrams
+let winTotal = Math.floor(maximumScore * .8)
+
 let successMessages = ['Good job!', 'Nice one.', "I didn't know that was a word. (Yes I did.)", "Way to go!", "Woo-hoo!", "Beauty eh?", "Fantastic!", "We are best pleased.", "Your accomplishment has been noted.", "Cha-ching!", "Cool.", "You're doing great, keep going."]
+
 let failureMessages = ["If at first you don't succeed...", "Sorry, that's not one of the answers.", "Bzzt!", "That does not compute.", "Good job!  (Not.)", "Yeah...no.", "I hate to be the bearer of bad news...", "You call that a word?", "Nice try, skeezix.", "Too bad, so sad.", "I can see how you'd think that's acceptable."]
 
 //random number generator
@@ -73,7 +82,6 @@ function gamePlay() {
   let guess = document.getElementById("word").value
   if (tempArray.includes(guess)) {
     messages.innerText = "You've already found that word."
-    console.log(tempArray)
     gamePlay()
   }
   let wordAccepted = false
@@ -81,21 +89,26 @@ function gamePlay() {
   for (let x = 0; x < wordsInPlay.length; x++) {
     let sortedWords = []
     if (guess == wordsInPlay[x]) {
-        randNum = randomNumber(0, (successMessages.length - 1))
-        messages.innerText = `${successMessages[randNum]}`
-        wordCounter += 1
+        if (pangrams.includes(guess)) {
+          messages.innerText = "Very nice! You found a pangram and it's worth five points."
+          runningTotal += 5
+        } else {
+          randNum = randomNumber(0, (successMessages.length - 1))
+          messages.innerText = `${successMessages[randNum]}`
+          runningTotal += 1
+        }
         foundWords.push(guess)
         sortedWords = foundWords.sort()
         displayFoundWords(sortedWords)
         wordAccepted = true
         tempArray.push(guess)
-        goalProgress.innerHTML = "<p>"+`Number of words found = ${wordCounter}`+"</p><p>"+`Number needed to win = ${winTotal}`+"</p><p>"+`Number of words in answer set = ${totalWords}`+"</p>"
-        if (wordCounter == totalWords) {
+        goalProgress.innerHTML = "<p>"+`Your point total = ${runningTotal}`+"</p><p>"+`Points needed to win = ${winTotal}`+"</p><p>"+`Maximum possible score = ${maximumScore}`+"</p>"
+        if (runningTotal == maximumScore) {
           messages.innerText = "Great work!  You found every word."
-          goalProgress.innerText = "CONGRATULATIONS!"
+          goalProgress.innerText = "CONGRATULATIONS!!!"
         }
-        if (wordCounter == winTotal) {
-          goalProgress.innerText = `YOU WIN!  Now see if you can find ALL the words.  Only ${totalWords - wordCounter} left!`
+        if (runningTotal == winTotal) {
+          goalProgress.innerText = `YOU WIN!  Now see if you can reach the maximum score!`
         }
     } 
   }
