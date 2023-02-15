@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>twiggle</title>
+</head>
+<body>
+
+    <div class="w3-col" id="column1">
+      twiggle
+      <br />
+      <br />
+      ~
+      <br />
+      <br />
+      <div class="intro">
+        <input type="button" class="button" id="shuffle" value="Shuffle letters"/>
+        <br />
+        <br />
+        <input type="button" class="button" id="return" value="Return to home"/>
+        <br />
+        <br />
+        <input type="button" class="button" id="quit-show" value="Quit (show answers)"/>
+        <br />
+        <br />
+        <input type="button" class="button" id="quit-only" value="Quit (don't show)"/> 
+    </div>
+    </div>
+
+    <div class="w3-col" id="center-column">
+
+          <div class="letters">
+            <br />
+            <span id="letter-display">
+            </span>
+            <br />
+          </div>
+          <br />
+
+      <div class="submit">
+      <input type="text" name="word" id="word" size="20"/>
+      <button class="button" id="word-button" onclick="gamePlay()">Submit</button>
+    </div>
+      <br />
+      <hr />
+
+      <div class="messages" id="messages"></div>
+      <br />
+      <br />
+
+      <div class="goal" id="goal-progress"></div>
+      <br />
+      <br />
+      <hr />
+      <br />
+      <a href="https://github.com/johnvresilovic">Github</a>
+      <br />
+      <a href="https://linkedin.com/in/john-vresilovic">LinkedIn</a>
+      <br />
+      <a href="mailto:johnvresilovic@protonmail.com">Contact</a>
+    </div>
+
+    <div class="w3-col" id="column2">
+      a word game
+      <br />
+      <br />
+      ~
+      <br />
+      <br />
+      <div>Words you've found: </div>
+      <br />
+      <div class="word-list" id="word-list"></div>
+    </div>
+
+    <script src = "./script.js" type = "text/javascript"/></script>
+</body>
+</html>

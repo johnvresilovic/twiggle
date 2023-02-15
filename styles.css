@@ -108,9 +108,10 @@ td {
     justify-content: space-evenly;
 }
 
-#quit-only, #quit-show {
+#quit-only, #quit-show, #shuffle, #return {
     background-color: cornsilk;
     color: black;
     font-size: 16px;
     font-weight: 600;
+    width: 170px;
 }
