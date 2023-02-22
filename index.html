@@ -17,9 +17,19 @@
       ~
       <br />
       <div class="intro">
-      <p>Make words from the letters provided.  Minimum word length is four.  Every word must use the <strong>key letter</strong>.  Any letter may be used multiple times in a word.  The answer set does not include proper nouns, acronyms, hyphenated words or contractions.</p>  
-      <p>To win, find at least 80% of the words in the answer set.</p>  
-      <p><strong>IMPORTANT:</strong> Please use only lower-case letters.</p>
+      <p>Make words from the letters provided.  Minimum word length is four.  Every word must use the <span style="color: firebrick">key letter</span>.  Any letter may be used multiple times in a word.  The answer set does not include proper nouns, acronyms, hyphenated words or contractions.</p>  
+      <p>To win, find at least 80% of the words.</p>
+      <p>There are ten puzzles available, so if you've solved one, click <strong>New game</strong> to try another.</p>  
+      <p><strong>IMPORTANT:</strong> Please use lower-case letters.</p>
+      <br />
+      <br />
+      <a href="https://github.com/johnvresilovic">Github</a>
+      <br />
+      <br />
+      <a href="https://linkedin.com/in/john-vresilovic">LinkedIn</a>
+      <br />
+      <br />
+      <a href="mailto:johnvresilovic@protonmail.com">Contact</a>
     </div>
     </div>
 
@@ -50,6 +60,8 @@
       <hr />
       <br />
       <div class="quit">
+        <input type="button" class="button" id="shuffle" value="Shuffle letters"/>
+        <input type="button" class="button" id="new-game" value="New game"/>
         <input type="button" class="button" id="quit-show" value="Quit (show answers)"/>
         <input type="button" class="button" id="quit-only" value="Quit (don't show)"/>
       </div>
@@ -62,7 +74,7 @@
       ~
       <br />
       <br />
-      <div>Words you've found: </div>
+      <div id="words-found">Words you've found: </div>
       <br />
       <div class="word-list" id="word-list"></div>
     </div>

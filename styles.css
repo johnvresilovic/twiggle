@@ -8,22 +8,22 @@
 
 #column1, #column2 {
     background-color: lightsteelblue;
-    height: 250vh;
+    height: 235vh;
     font-weight: bold;
 }
 
 #column1 {
-    width: 15%;
+    width: 20%;
 }
 
 #column2 {
-    width: 21%;
+    width: 20%;
 }
 
 #center-column {
-    background-color: white;
-    height: 100vh;
-    width: 64%;
+    background-color:white;
+    height: 200vh;
+    width: 60%;
 }
 
 .intro { 
@@ -39,7 +39,8 @@ hr {
 
 #letter-tile {
     background-color:cornsilk;
-    font-size: 40px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .button {
@@ -77,7 +78,7 @@ hr {
 
 .messages {
     max-height: 50px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -93,14 +94,11 @@ hr {
 }
 
 .word-list {
-   padding-left: 5px;
+   padding-left: 35px;
 }
 
 td {
-    border: 1px solid black;
-    border-collapse: collapse;
     font-size: 14px;
-    border-radius: .2em;
   }
 
 .quit {
@@ -108,7 +106,7 @@ td {
     justify-content: space-evenly;
 }
 
-#quit-only, #quit-show, #shuffle, #return {
+#quit-only, #quit-show, #shuffle, #new-game {
     background-color: cornsilk;
     color: black;
     font-size: 16px;

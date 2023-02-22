@@ -4,13 +4,13 @@
 
 twiggle is a word game.  The player uses a set of seven letters to make as many words as possible.  One of the seven letters is designated the key letter and every word made must use that letter at least once.  All letters may be used multiple times in a given word.  Proper nouns, acronyms, hyphenated words and contractions are not valid answers.
 
-Below is a picture of the one and only page.
+Below is a screenshot.
 
 ![screenshot](./screenshot.png)
 
 ## Technologies Used
 
-twiggle was created using JavaScript, HTML and CSS.
+JavaScript, HTML and CSS.
 
 ## Getting Started
 
@@ -18,16 +18,15 @@ When I started learning to code I knew I would want to create a game like this. 
 
 ## Unsolved Problems
 
-There aren't any critical unsolved problems.    
+The game is not mobile responsive.  I'll address this in the next version.    
 
 ## Future Enhancements
 
-This is a big improvement on the first version but there is plenty of work to be done.      
+I would like to have a database of puzzle sets of varying difficulty.  The user will choose a difficulty level (Easier, Harder or Ridiculous) and then be presented with a puzzle that matches the choice.      
 
 ## Miscellaneous
-If you want access to the files you can fork and clone this repository to your machine.  
+The live link to the game is https://johnvresilovic.github.io/twiggle/
 
-To play the game, visit https://johnvresilovic.github.io/twiggle/.  Right now the game looks best on bigger (desktop/laptop) screens.  Better mobile responsivity is coming soon!
+If you want access to the files you can fork and clone this repository to your machine.
 
-Contact info: 
-https://linkedin.com/in/john-vresilovic
+Contact info: johnvresilovic@protonmail.com
