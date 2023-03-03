@@ -10,6 +10,7 @@ const letterSet = [
   ["a", "o", "l", "i", "d", "b", "r"],
   ["o", "a", "p", "g", "l", "f", "e"],
   ["i", "u", "y", "a", "t", "r", "p"],
+  ['n', 'a', 't', 'c', 'o', 'v', 'i']
 ];
 
 const wordSet = [
@@ -415,6 +416,7 @@ const wordSet = [
     "tray",
     "yappy",
   ],
+  ['activation', 'vacation', 'attic', 'antic', 'acai', 'connotation', 'concoct', 'concoction','civic', 'cocoon', 'cacti', 'cant', 'cocoa', 'cacao', 'catatonic', 'convict', 'conviction', 'canton', 'cantina', 'canon', 'cannon', 'cavatini', 'coot', 'citation', 'intact', 'incantation', 'icon', 'iconic', 'ionic', 'tact', 'tactic', 'tacit', 'tactician', 'taco', 'tinct', 'vocation', 'vacant', 'vaccination', 'canto', 'cannot', 'avocation', 'coca', 'invocation']
 ];
 
 const pangramSet = [
@@ -428,6 +430,7 @@ const pangramSet = [
   ["billboard"],
   ["flagpole"],
   ["pituitary"],
+  ['activation', 'vacation', 'vocation', 'vaccination', 'avocation', 'invocation']
 ];
 
 //random number generator
@@ -436,7 +439,7 @@ function randomNumber(min, max) {
 }
 
 //randomly select a data set
-let setIndex = randomNumber(0, 10);
+let setIndex = randomNumber(0, 11);
 
 let letters = letterSet[setIndex];
 
