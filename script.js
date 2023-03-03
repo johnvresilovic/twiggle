@@ -416,7 +416,7 @@ const wordSet = [
     "tray",
     "yappy",
   ],
-  ['activation', 'vacation', 'attic', 'antic', 'acai', 'connotation', 'concoct', 'concoction','civic', 'cocoon', 'cacti', 'cant', 'cocoa', 'cacao', 'catatonic', 'convict', 'conviction', 'canton', 'cantina', 'canon', 'cannon', 'cavatini', 'coot', 'citation', 'intact', 'incantation', 'icon', 'iconic', 'ionic', 'tact', 'tactic', 'tacit', 'tactician', 'taco', 'tinct', 'vocation', 'vacant', 'vaccination', 'canto', 'cannot', 'avocation', 'coca', 'invocation']
+  ['activation', 'vacation', 'attic', 'antic', 'acai', 'connotation', 'concoct', 'concoction','civic', 'cocoon', 'cacti', 'cant', 'cocoa', 'cacao', 'catatonic', 'convict', 'conviction', 'canton', 'cantina', 'canon', 'cannon', 'cavatini', 'coot', 'citation', 'intact', 'incantation', 'icon', 'iconic', 'ionic', 'tact', 'tactic', 'tacit', 'tactician', 'taco', 'tinct', 'vocation', 'vacant', 'vaccination', 'canto', 'cannot', 'avocation', 'coca', 'invocation', 'coat', 'coati']
 ];
 
 const pangramSet = [
