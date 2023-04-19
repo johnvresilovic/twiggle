@@ -66,41 +66,260 @@ castors,iotas,ricti,ricottas,soots,scrot,striatic,tartars,tarsi,taros,attars,aor
 
 ['t','n','a','e','p','h','y']
 
-[]
+['hyphenate','eyeteeth','hyena','hype','hyphen','penny','petty','peppy','type','they','yeah','teeny','antenna','antennae','entente','epee','eaten','heap','heat','hate','henna','heath','heathen','neat','neap','nape','peen','penne','pennant','patent','peep','peat','pate','paean','pane','tent','tepee','teepee','then','theta','teeth','teethe','teen','tenet','tenant','teat','tape','yente','yenta']
 
-[]
+['hyphenate']
 
-netty
+netty,neath,patentee
 
 *
 
 ['e','p','y','i','a','h','n']
 
-[]
+['epiphany','apian','inane','innie','hippie','nine','ninny','nippy','pain','panini','pine','pipe','pippin','heinie']
 
-[]
+['epiphany']
 
-hippy,piney,yippy
+hippy,piney,yippy,yipe
 
+*
 
+['l','g','n','y','e','a','o']
 
+['genealogy','analogy','ally','allay','anally','elegy','galley','golly','googly','gooey','loyal','loyally','legally','lonely','loony','laggy','logy','leggy','only','yoga','nanny','gangly','naggy','geology','yell','yegg','eggy','alley','neology']
 
+['genealogy']
 
+gayly,goggly,oogy/oogey
 
+*
 
+['t','i','m','g','n','p','e']
 
+['pigment','egging','engine','emitting','gigging','getting','gimme','genie','genii','ginning','gent','mining','miming','meting','meeting','nipping','gimp','pigging','piping','pitting','pining','penning','pinning','pegging','petting','peeing','peeping','ping','pinging','pepping','pigpen','minge','tinge','timing','teeming','tenting','tinting','minting','ignite','igniting']
 
+['pigment']
 
+pigmenting,geni,meming,negging,gimping,tinging,tinning
 
+*
 
+['t','a','l','y','m','o','r']
 
+['ally','allay','arroyo','army','array','amorally','loyal','loyally','loyalty','lorry','mayoralty','mortally','mayor','morally','mayoral','mayo','marry','martyr','molly','orally','royal','royally','royalty','ratty','rally','tarry','tally','tatty','totally']
 
+['mayoralty','mortally']
 
+loamy,lolly,aortally
 
+*
 
+['t','r','a','u','n','c','e']
 
+['aunt','aura','accrue','acute','cunt','curt','cure','cutter','current','currant','curate','accurate','nurture','nurturer','nature','nutter','nuance','neuter','runt','rune','runner','truncate','turret','turn','turner','tuna','truant','true','truer','taut','taunt','tuner','return','returner','rerun','recur','recurrence','untrue','uncut','truce']
 
+['truncate']
 
+actuate,enure,rutter,recurrent,truance,cruet
 
+*
 
+['u','n','d','l','a','t','e']
 
+['undulate','undulated','undealt','alden','anal','annal','addle','addled','adulate','adulated','dealt','deal','dell','dale','dull','dulled','dual','duel','dueled','delete','deleted','adult','elate','elated','elan','allude','alluded','elude','eluded','lane','land','landed','lead','leaded','luna','lunula','lunate','lude','lute','luau','lull','lulled','latent','lade','laden','laded','latte','lend','lent','lean','lulu','tell','teal','tale','tall','talent',talented','tunnel','tunneled','tattle','tattled','unleaded','leaden','undelete','undeleted','ululate','ululated','tattletale']
+
+['undulate','undulated','undealt']
+
+unlade/unladen
+
+*
+
+['a','o','r','b','t','i','n']
+
+['abortion','abort','arbor','born','barn','boon','bonbon','bonobo','briar','boba','barb','boar','brat','bran','brain','boat','baton','babboon','nabob','obit','robin','rabbi','rabbit','tibia','taboo']
+
+['abortion']
+
+arborio,aborn,inborn,ribbit,abbot/t
+
+*
+
+['r','a','n','t','s','i','o']
+
+['orations','rations','rotations','transition','transitions','transistor','transistors','arsonist','arsonists','attrition','anti','arts','aorta','ants','annotation','attain','attains','assist','assists','anoint','anoints','into','instant','instants','intonation','intonations','notation','notations','notion','notions','nits','nitro','onto','oration','orator','orators','oratorio','oratorios','oats','oast','oasts','ratio','ratios','rats','rasta','rastas','rant','rants','roast','roasts','roost','roosts','riot','riots','root','roots','rotor','rotors','rotator','rotators','raita','raitas','riata','attar','tori','torii','tort','torts','toot','toots','torn','toast','toasts','trait','traits','taint','taints','tiara','tiaras','tart','tarts','tartar','tartan','taro','tarot','tins','tans','tannin','tannins','tons','tarnation','transit','nation','nations','triton','toon','toons','stair','stairs','sitar','sitars','sanitation','sort','sorts','sonata','sonatas','satin','stain','stains','strain','strains','stoat','stoats','torso','tots','stir','stirs','star','stars','start','starts','station','stations','soot','artist','artists','train','trains','trot','trots','trio','trios','stint','stints','titan','titans','toro','intro','intros','sots','roti','tars','natant','atria','snoot','snoots','snot','snots','snort','snorts','rattan','strait','straits']
+
+['orations','rations','rotations','transition','transitions','transistor','transistors','arsonist','arsonists']
+
+assort/s,aortas,arrant,instantiation/s,nitration,riatas,roist/s,attars,ratatat,titration,tartars,tartans,taros,tarots,sonatina/s,stan/s,statin/s,tarsi,tors,astir,iniator/s*,orts,rotis,satan,iotas,striation/s**
+
+*
+
+['o','t','i','n','d','r','a']
+
+['adoration','radiation','tradition','andiron','anion','anti','adorn','anon','anoint','attrition','addition','donation','dint','darn','dino','drain','into','intonation','intro','irritant','irritation','notion','annotation','notation','nada','nana','naan','nadir','nation','nitro','onion','onto','oration','ration','rotation','rand','rant','rain','roan','rondo','radian','radon','tandoor','tandoori','tannin','torn','tarnation','toon','noon','tint','taint','attain','train','triton']
+
+['adoration','radiation','tradition']
+
+arrant,nitron,rando,nitration,tonation,odoration,attaint
+
+*
+
+['e','t','u','s','c','a','l']
+
+['calculates','cutlasses','asset','assets','ales','attest','attests','asses','aces','assess','assesses','assault','assaults','cast','casts','caste','castes','castles','castles','cats','cauls','calls','culls','cuts','cutest','cause','causes','casual','causal','case','cases','cuss','cusses','clues','clueless','cleats','cults','cactus','catcalls','cease','ceases','callus','calluses','estate','estates','ease','eases','easel','easels','eats','east','elects','elates','last','lasts','least','lessee','lessees','laces','lease','leases','lust','lusts','lest','lulls','luaus','lutes','lass','lasses','lets','cutlets','lase','lases','latest','salute','salutes','salt','salts','sale','sales','stale','stalest','stall','stalls','settle','settles','seal','seals','steal','steals','steel','steels','scuttle','scuttles','scale','scales','state','states','sues','sacs','slat','slats','slate','slates','sleet','sleets','sell','sells','sate','sates','slut','sluts','sauce','sauces','astute','settee','settees','scat','scats','sect','sects','suss','susses','sass','sasses','salsa','salsas','sees','seas','taste','tastes','testes','test','tests','tales','tallest','tease','teases','tassel','tassels','tussle','tussles','tase','tases','tells','teas','teats','telsat','tattles','tees','usual','tasteless','tactless','cutlass','class','classes','classless','uses','ululates']
+
+['calculates','cutlasses']
+
+casuals,stateless,astutest,usuals,telsats,tautest,tuts,tulles,teals,talcs,talus,taluses
+
+*
+
+['e','t','b','i','a','l','c']
+
+['alibi','atilt','attic','alit','bite','bill','bile','bail','belittle','bible','celiac','cilia','clit','celibate','cacti','acetic','eclectic','iliac','icicle','lilac','lice','laic','laical','libel','liable','lite','illicit','licit','elicit','billable','lactic','little','lattice','bilabial','labia','labial','till','tilt','tile','tittle','tail','title','tibia','tibial','tacit','tactic','tactical']
+
+['celibate']
+
+cabbie,calcite,libelee,elicitable,belittleable,labile,tali
+
+*
+
+['n','o','r','a','i','t','e']
+
+['aorta','attrition','anti','attention','anoint','attain','annotate','annotation','atone','anteater','anion','eater','eaten','errant','earn','earner','irate','intonation','iteration','iterate','reiterate','innate','inane','itinerant','natant','nana','naan','nation','notation','neat','neaten','near','nearer','natter','orientation','orate','orator','oratorio','oration','rate','rant','ranter','ration','ratio','rare','rarer','roan','rear','retina','retain','retainer','rain','raita','rattan','tare','taint','trait','traitor','train','trainer','tarnation','tarot','taro','tanner','tannin','tart','tartar','tartan','tartare','tear','teat','tiara','treat','treater','anon','nitrate','titrate','titration','aerate','narrate','narrator','narration']
+
+['iteration','orientation']
+
+aortic,arrant,anointer*,annotater,aeon,atonation,aerie,reiteration*,notate/r,natterer,orientate,rater,rationer*,rani,arrear,retinae,retrain,rainer,tater,tearer,tonation,nitration,aeration*,aerator
+
+*
+
+['e','n','p','m','t','l','a']
+
+['ample','enema','element','elemental','lament','lame','lama','llama','lamp','mean','mane','male','malt','metal','mental','mettle','meat','mete','meet','manta','mantle','meant','meme','mate','mama','mamma','melt','mall','melee','manna','maple','meal','name','nameplate','palm','temp','tamp','tamale','team','teem','tame','tenement','temple','tempt','mammal']
+
+['nameplate']
+
+emanate,mentee,pampa,panama
+
+*
+
+['y','a','c','n','m','t','i']
+
+['anti','antic','cantina','cant','canny','intimacy','inanity','mint','minty','mini','minim','minima','manic','maniac','manta','manna','many','main','minicam','ninny','nana','nanny','tiny','naan','tinny','tint','taint','attain','tannin','tinct','tannic','titanic','natant','tactician','maintain','natty']
+
+['intimacy']
+
+anima,nitty
+
+*
+
+['a','c','f','l','n','t','i']
+
+['anal','annal','afflict','alfalfa','cliff','clit','calf','call','calla','cilia','clinic','clinical','clinician','canal','fanatical','fall','filial','fill','flint','final','fail','flail','flan','iliac','lilac','lint','lift','laic','laical','lanai','facial','lilt','lactic','nail','till','tilt','talc','tactical','tall','tail']
+
+['fanatical']
+
+liana,lain,tali
+
+*
+
+['m','o','t','r','u','y','a']
+
+['aorta','array','arroyo','army','armor','armory','aura','aurora','aroma','moray','mortar','moor','mart','martyr','marry','marm','murmur','oratory','orator','rotator','rotary','rout','roar','root','ratty','room','roomy','rumor','roam','tarry','tram','trot','toro','tour','tort','tartar','tray','troy','tart','trout','trauma','yurt','mortuary']
+
+['mortuary']
+
+amour,ratatat,rutty
+
+*
+
+['y','e','t','h','a','m','p']
+
+['empathy','eyeteeth','heat','hemp','happy','hate','heap','hath','hatha','meth','math','path','theta','them','theme','that','they','heath']
+
+['empathy']
+
+empath,hema,thema,empanel
+
+*
+
+['l','d','a','e','i','n','b']
+
+['alien','ailed','aide','aided','abide','abided','alden','addle','addled','able','babble','babbled','babied','babe','baddie','banned','bandied','bell','belle','bellied','bedded','belie','belied','bean','beaned','bend','been','beeline','beadle','bead','beaded','balled','beanie','bided','bide','bale','baled','bailed','bled','bleed','blade','bladed','denied','deniable','dabble','dabbled','dell','deal','dale','dallied','dead','deaden','deadened','denial','dialed','deed','deeded','enable','enabled','ended','elan','edible','ebbed','eddied','inedible','indelible','indeed','idle','idled','indie','lien','line','lean','lane','lend','lead','leaded','leaden','libel','libeled','lade','laden','lined','nene','nailed','need','needed','needle','needled','nine','nibble','nibbled','inane','dean','blend','blended','bade','lede','lineal']
+
+['deniable']
+
+abed,alee,anneal/ed,abled,bann,belled,bended,beelined,bidden,biddie,bennie,balinade*,deadended,bendable,laded,laned,adlibbed,enneal/ed
+
+*
+
+['l','a','c','o','p','t','i']
+
+['occipital','optical','allot','atoll','aioli','capitol','cola','coal','coot','cool','coca','cocoa','cacao','coil','coop','coopt','coati','coat','cocci','colt','loop','loot','lotto','loll','lollop','loco','capo','alto','lipo','local','lollipop','laptop','olla','optic','opal','olio','pool','polio','politic','political','polo','plop','patio','poop','tool','taco','total','toot','topical','tapioca','toil']
+
+['occipital','optical','capitol','political','topical']
+
+coattail,loca,oppo,apolitical*,pico,coolio,tiptop
+
+*
+
+['e','g','t','z','m','i','l']
+
+['geez','itemize','legitimize','mezze']
+
+['legitimize']
+
+elegize
+
+*
+
+['o','m','n','t','e','p','i']
+
+['emit','emote','emotion','intent','intention','intone','into','inept','imminent','eminent','mote','mite','mete','meet','motion','mitt','motto','mentee','mention','mitten','mint','monotone','moot','note','notion','nonnet','nineteen','onto','omit','pimento','point','pint','pontoon','pent','poet','pipet','pipette','poppet','pinto','penitent','tine','teen','impotent','potent','tepee','teepee','temp','tempt','teem','time','tome','toot','toon','tomtit','tone','potion','tint','tent','tempo','totem','tenet','tenement','tote','omnipotent']
+
+['pimento','impotent','omnipotent']
+
+poptop,tiptop,tope
+
+*
+
+['e','c','n','l','i','a','p']
+
+['appliance','apple','alliance','appeal','appall','anal','annal','alien','clap','clan','call','calla','canal','clean','clip','cell','celli','cilia','elan','iliac','icicle','line','lane','lanai','lien','lean','lapel','laic','laical','lice','lace','leap','lilac','lance','nail','nipple','plan','plane','plain','palapa','pale','pail','place','palace','plie','pall','pill','pineapple','peal','peel','pile','papal','pinnacle','clinic','clinical','clinician','celiac','incline','capellini']
+
+['appliance','pinnacle','capellini']
+
+appellee,alee,anile,alienee,enlace,palp,palpal,cannala
+
+*
+
+['t','a','i','p','e','n','c']
+
+['anticipate','patience','incapacitate','apian','appetite','cape','captain','canape','epee','epic','incipient','ipecac','inept','neap','pant','pane','panic','papa','paean','patina','patent','patentee','patient','pace','pact','pain','pate','peen','peat','penne','pennant','pent','peace','pence','peep','pecan','penance','pipe','pippin','pine','pipet','pipette','pint','pica','picnic','pita','paint','panini','tepee','teepee','tape','tapa']
+
+['anticipate','patience','incapacitate']
+
+inapt,inpatient,pennie,penitent,penitence,pitapat,capacitate
+
+*
+
+['t','e','m','b','i','n','a']
+
+['abet','abate','abatement','ambient','banana','bane','bantam','been','bite','bitten','bent','bean','beanie','babe','bate','bait','batten','beat','beaten','beet','imbibe','mamba','tibia','beam']
+
+['ambient']
+
+bennie
+
+*
+
+['p','l','c','a','e','n','t']
+
+['placenta','plane','planet','plan','plant','place','palace','pate','palate','palette','pall','pale','pace','pant','pane','panel','pact','papa','papal','paean','paella','patella','patent','plate','platelet','penal','petal','pecan','pennant','pleat','panacea','pancetta','placate','alpaca','appeal','appellee','appellate','accept','acceptance','apple','applet','anal','annal','antenna','antennae','cape','canal','cane','cant','call','calla','cattle','clan','clap','elan','elate','enact','lapel','late','latent','lace','lane','lactate','lean','leap','leapt','naan','nana','nape','natant','nacelle','neat','neaten','neap','natal','tale','talent','tall','talc','tape','tact','tapa','teal','teat','tattle','tenant','appall']
+
+['placenta']
+
+placentae,placental,palapa,palp,palpal,palpa,palpate,patellae,patentee,panatelle,platen,appellant,alae,canna,cannala,enate,enlace
+
+*
